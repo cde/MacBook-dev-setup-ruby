@@ -4,7 +4,7 @@ This document describes how I set up my basic ruby developer environment on a ne
 (some of them are kinda obvious :p ) The steps below were tested on OS X El Capitan and assumes you are semi-new to Mac.
 
 I will set up mainly for [Ruby](http://www.ruby-lang.org/) development.
-Setting for javascript environment can be found [here](https://gist.github.com/cde/502a6f2cc0853f553fddcc7c6fbb02f2) 
+Setting for javascript environment can be found [here](https://gist.github.com/cde/502a6f2cc0853f553fddcc7c6fbb02f2)
 
 
 - [System update](#system-update)
@@ -149,6 +149,7 @@ You can download some basic configuration [.gitconfig](https://raw.githubusercon
 
 It will add some color to the `status`, `branch`, and `diff` Git commands
 
+### Configure Github
 The next step is to generate a SSH key and add it to your Github account.
 
     ssh-keygen -t rsa -C "YOUR@EMAIL.com"
@@ -268,7 +269,19 @@ When done, it gives you a couple commands to run. Follow the instructions and ru
 In terms of a GUI client for MySQL, I'm used to the official and free [MySQL Workbench](http://www.mysql.com/products/workbench/). But feel free to use whichever you prefer.
 
 ## Terminal settings
-At this point you could customize your settings. As example you could have [.aliases](https://github.com/cde/MacBook-dev-setup-ruby/blob/master/.aliases) and/or customize your ***prompt***.
+At this point you have everything you need to customize your basic settings.
+
+As example you could create ***aliases*** and/or customize your ***prompt*** like I did.
+- [.bash_aliases](https://github.com/cde/MacBook-dev-setup-ruby/blob/master/.bash_aliases)
+- [.bash_prompt](https://github.com/cde/MacBook-dev-setup-ruby/blob/master/.bash_prompt)
+
+Example of Custom bash prompt
+
+On iTerm2, I use a custom bash prompt based on the Solarized color palette and influenced by @necolas’s prompt.
+You can download it in your home directory:  
+
+    cd ~
+    curl -O https://raw.githubusercontent.com/cde/MacBook-dev-setup-ruby/master/.bash_prompt
 
 Add the bellow lines to ***.bash_profile*** to load any setting files.
 
