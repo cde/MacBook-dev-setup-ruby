@@ -4,7 +4,7 @@ This document describes how I set up my basic ruby developer environment on a ne
 (some of them are kinda obvious :p ) The steps below were tested on OS X El Capitan and assumes you are semi-new to Mac.
 
 I will set up mainly for [Ruby](http://www.ruby-lang.org/) development.
-Setting for javascript environment can be found here
+Setting for javascript environment can be found [here](https://gist.github.com/cde/502a6f2cc0853f553fddcc7c6fbb02f2) 
 
 
 - [System update](#system-update)
